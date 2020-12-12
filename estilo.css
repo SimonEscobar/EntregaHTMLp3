@@ -1,0 +1,38 @@
+body{
+    background-image: url(Imagenes/P3-ImaFondo.jpg);
+    margin: 0;
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+h1{
+    color: green;
+    text-align: center;
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+    border: floralwhite;
+    margin: auto;
+}
+.imagen{
+    width: 300px;
+    border-radius: 10px;
+    border: 1px;
+}
+.imagen:hover{
+    transform: scale(1.2);
+}
